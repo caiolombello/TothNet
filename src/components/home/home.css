@@ -5,10 +5,10 @@
 
 .navbar {
 	position: absolute;
-	width: 1440px;
+	width: 100%;
 	height: 86px;
 	left: 0px;
-	top: -3px;
+	top: 0px;
 
 	background: #232A25;
 }
@@ -33,7 +33,7 @@
 	position: absolute;
 	width: 145.85px;
 	height: 40.5px;
-	left: 1172.15px;
+	left: 85%;
 	top: 18px;
 
 	background: #56ED87;
@@ -45,8 +45,8 @@
 	position: absolute;
 	width: 115.32px;
 	height: 19.08px;
-	left: 1203px;
-	top: 31px;
+	left: 25%;
+	top: 35%;
 
 	font-family: Roboto;
 	font-style: normal;
