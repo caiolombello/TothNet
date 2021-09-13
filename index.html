@@ -25,24 +25,61 @@
     
 	<!-- Navbar -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#"><img src="src/img/Logo.png" alt="TothNet" style="padding-left: 40%"></a>
+		<a class="navbar-brand" href="#"><img src="src/img/Logo.png" alt="TothNet" style="padding-left: 40%;"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul id="login" navbar-nav flex-row ml-md-auto d-none d-md-flex>
+				<li class="nav-item">
+				</li>
+			</ul>
+			<button id="login-btn" type="button" class="sc-1o1fwv2-3 gVyJUS">
+				<div class="sc-1327m7p-1 dggSxI sc-1o1fwv2-2 dBJWmB"></div>
+				<div class="sc-1o1fwv2-0 eXyiay">Login</div>
+			</button>
+		</div>
 		</div>
 	</nav>
 
     <header>
 
-        <div id="showcase">
+		<div class="z8ujbu-1 BmvIn">
+        <div class="z8ujbu-7 fWBKKZ">
 			<!-- Título -->
-            <h1>A melhor plataforma para sua escola</h1>
-            <p>O ThotNet é o sistema de gestão escolar mais completo. Comece a criar o seu ensino online em minutos</p>
-			
+            <h1 class="z8ujbu-5 eEcjLT">Construa o melhor Servidor de Estudos do Discord!</h1>
+            <p class="z8ujbu-2 z8ujbu-6 bpcNbc frSBeI">Organize seu servidor para dar aulas, marcar presença, conferir boletim e muito mais com o painel mais fácil de usar!</p>
+
+			<svg width="80" height="10" viewBox="0 0 80 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M1 2L7 8L13 2L19 8L25 2L31 8L37 2L43 8L49 2L55 8L61 2L67 8L73 2L79 8" stroke="#555762" stroke-width="2"/>
+			</svg>
+
+			<p></p>
+
+			<ul class="sc-133bauo-2 jjvACP" style="padding: 0;">
+				<li class="sc-133bauo-3 cbROHK">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="m9d8o3-0 etQmwy sc-133bauo-4 hswxBt" main="#9B9D9F">
+						<path d="M18 7L9.429 17 6 13" stroke="#9B9D9F" data-stroke="main" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> 
+						<span>Moderação</span></li>
+						<li class="sc-133bauo-3 cbROHK"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="m9d8o3-0 etQmwy sc-133bauo-4 hswxBt" main="#9B9D9F">
+							<path d="M18 7L9.429 17 6 13" stroke="#9B9D9F" data-stroke="main" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> 
+							<span>Organização</span>
+						</li>
+							<li class="sc-133bauo-3 cbROHK"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="m9d8o3-0 etQmwy sc-133bauo-4 hswxBt" main="#9B9D9F">
+								<path d="M18 7L9.429 17 6 13" stroke="#9B9D9F" data-stroke="main" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								<span>Praticidade</span>
+							</li>
+								<li class="sc-133bauo-3 cbROHK">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="m9d8o3-0 etQmwy sc-133bauo-4 hswxBt" main="#9B9D9F">
+										<path d="M18 7L9.429 17 6 13" stroke="#9B9D9F" data-stroke="main" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+										<span>Lista de presença, boletim, calendário, provas e muito mais!</span>
+									</li>
+									</ul>
+
 			<!-- Botões -->
 			<button class="btn-hover color-9">
 				<span class="download" style="font-size: 16px;">
-				Ver funcionalidades
+				Funcionalidades
 				</span>
 			</button>
 			
@@ -55,11 +92,18 @@
 				</span>
 			</button>
         </div>
+		</div>
+		
     </header>
+
+	<div class="feature">
+		<h2 class="feature-title">Funcionalidades</h2>
+	</div>
 
 	<!-- Equipe -->
 
 	<div id="container">
+		<h2 class="team">Equipe</h2>
 		<div class="main center">
 			<div class="box center">
 				<img src='src/img/caio.jpg' alt="Foto de Caio Barbieri">
@@ -67,10 +111,10 @@
 					<p class="nome">Caio Barbieri</p>
 				</div>
 				<div class="icons">
-					<i class="fab fa-github"></i>
-					<i class="fab fa-linkedin"></i>
-					<i class="fab fa-twitch"></i>
-					<i class="fab fa-youtube"></i>
+					<i class="fab fa-github" onclick="window.location.href='https://github.com/caiolombello';" style="cursor: pointer;"></i>
+					<i class="fab fa-linkedin" onclick="window.location.href='https://linkedin.com/in/caiolvbarbieri';" style="cursor: pointer;"></i>
+					<i class="fab fa-twitch" onclick="window.location.href='https://twitch.tv/nonyy';" style="cursor: pointer;"></i>
+					<i class="fab fa-youtube" onclick="window.location.href='https://youtube.com/c/caiolombello';" style="cursor: pointer;"></i>
 				</div>
 			</div>
 		</div>
@@ -197,7 +241,7 @@
   <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
    		© 2021 Copyright:
-    	<a class="text-reset fw-bold" href="https://caiolombello.github.io/TothNet/">TothNet</a>
+    	<a class="text-reset fw-bold" href="https://tothnet.xyz">TothNet</a>
   	</div>
   <!-- Copyright -->
 </footer>
