@@ -494,7 +494,7 @@ body {
 }
 
 .main {
-	height: 50vh;
+	height: 40vh;
 }
 
 .box {
@@ -516,5 +516,5 @@ body {
 
 .nome {
 	margin-bottom: 5px;
-	font-size: 2rem;
+	font-size: 1.3rem;
 }
