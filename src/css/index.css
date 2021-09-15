@@ -46,7 +46,7 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 	display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -220,7 +220,8 @@ a {
 header{
     width: 100%;
     padding: 10%;
-    background-color: #56ed87;
+    background: rgb(51,51,51);
+	background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(86,237,135,1) 100%);
 }
 
 #platform{
@@ -262,7 +263,7 @@ header{
 .feature{
     display: flex;
     flex-direction: column;
-    background: #333;
+	background: rgba(51,51,51,1);
     padding: 20px;
     border-radius: 5px;
 }
@@ -484,7 +485,9 @@ header{
 }
 
 body {
-	background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+	/* background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+	background: rgb(44,83,100);
+	background: linear-gradient(0deg, rgba(44,83,100,1) 0%, rgba(36,67,79,1) 50%, rgba(15,32,39,1) 100%);
 }
 
 .center {
